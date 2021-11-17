@@ -13,7 +13,7 @@ modified_by:
 published: 2009-09-04
 os: ["mac", "linux", "windows"]
 title: "How to Install Git on Linux, Mac or Windows"
-h1_title: "Installing Git on Linux, Mac or Windows"
+h1_title: "Installing Git on Linux, Mac or Windows or Lucian"
 enable_h1: true
 external_resources:
  - '[Refspec Information](http://git-scm.com/book/ch9-5.html)'
