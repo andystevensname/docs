@@ -1919,6 +1919,7 @@ pg_restore
 pgAdmin
 PGvector
 pgpass
+Pgvector
 pgvector
 Phalcon
 pharmer
