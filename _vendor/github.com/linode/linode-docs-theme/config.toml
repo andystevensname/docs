@@ -163,7 +163,7 @@
 
   [[module.mounts]]
     source = "assets"
-    target = "assets"
+    target = "assets/tech-guides-assets"
 
   [[module.mounts]]
     source = "static"

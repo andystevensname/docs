@@ -7,7 +7,7 @@ keywords: ['percona','marketplace apps','monitoring', 'database']
 tags: ["database","monitoring","cloud-manager","linode platform","quick deploy apps"]
 image: 'deploy-percona-marketplace.png'
 aliases: ['/products/tools/marketplace/guides/percona-monitoring-management/','/platform/marketplace/how-to-deploy-percona-monitoring-management-with-marketplace-apps/', '/platform/one-click/how-to-deploy-percona-monitoring-management-with-one-click-apps/','/guides/how-to-deploy-percona-monitoring-management-with-one-click-apps/','/guides/how-to-deploy-percona-monitoring-management-with-marketplace-apps/','/guides/percona-marketplace-app/']
-_build:
+build:
   list: false
 noindex: true
 deprecated: true
