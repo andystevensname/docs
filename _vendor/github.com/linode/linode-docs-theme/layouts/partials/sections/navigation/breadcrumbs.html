@@ -18,6 +18,7 @@
 {{ define "breadcrumbs-home" }}
   <a
     class="max-w-32 truncate"
+    data-turbo="false"
     href="{{ site.Home.RelPermalink }}"
     @click="$store.search.clearQuery()">
     Docs Home
