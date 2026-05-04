@@ -219,8 +219,8 @@ jobs:
         cp sitemap.xml ${{ vars.DUPE_SITEMAP_NAME }}
 
         SED_ESCAPED_URL=$(echo ${{ secrets.DOCS_WEBSITE_URL }} | sed 's|\.|\\\.|g')
-        sed -i 's|<loc>$SED_ESCAPED_URL\([a-z0-9\/-]*\)/</loc>|<loc>https://akamai.com/cloud/\1</loc>|g' ${{ vars.DUPE_SITEMAP_NAME }}
-        sed -i 's|<loc>$SED_ESCAPED_URL</loc>|<loc>https://akamai.com/cloud</loc>|' ${{ vars.DUPE_SITEMAP_NAME }}
+        sed -i "s|<loc>$SED_ESCAPED_URL\([a-z0-9\/-]*\)/</loc>|<loc>https://akamai.com/cloud/\1</loc>|g" ${{ vars.DUPE_SITEMAP_NAME }}
+        sed -i "s|<loc>$SED_ESCAPED_URL</loc>|<loc>https://akamai.com/cloud</loc>|g" ${{ vars.DUPE_SITEMAP_NAME }}
 
       # Make a tarball of the site, because it will upload much, much quicker
       # than the uncompressed rendered site. The commit for this workflow run
